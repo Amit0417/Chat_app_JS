@@ -1,0 +1,114 @@
+.mainContainer{
+    display: flex; flex-wrap: wrap;
+   justify-content: space-evenly;
+}
+
+.admin_header_1{
+    background-color: rgb(118, 198, 252); 
+    height: 50px; 
+    display: flex;
+}
+.admin_header_2{
+    background-color:rgb(247, 118, 140);  
+    height: 50px; 
+    display: flex;
+}
+
+
+.heading_dot{
+    
+    border-radius: 50%; 
+    height: 40px; 
+    width: 40px; 
+    background: #cccccc; 
+    margin-left: 10px; 
+    margin-top: 5px;
+}
+h3{
+    padding-left: 20px ; 
+    padding-top: 8px;
+    /* align-items: center; */
+}
+
+.messege_area{
+    padding: 0 ; 
+    height: 400px; 
+
+    background-color:rgb(247, 241, 234); 
+    display: flex; 
+    flex-direction: column;
+    overflow-y: scroll;
+}
+#admin_one_messege{
+    display: flex; 
+    width:fit-content; 
+    height: fit-content;
+    background-color: rgb(186, 236, 186);
+    margin-right: 5px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    float: right;
+    cursor: pointer;
+}
+
+#admin_two_messege{
+    display: flex; 
+    max-width: fit-content; 
+    max-height: fit-content;
+    background-color: rgb(168, 210, 245);
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px ;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+.admin_one_messege{
+    display: flex; 
+    max-width: fit-content; 
+    background-color: rgb(186, 236, 186);
+    margin-right: 5px; 
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    float: right;
+    cursor: pointer;
+}
+.admin_two_messege{
+    display: flex; 
+    max-width: fit-content; 
+    background-color: rgb(168, 210, 245);
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 10px ;
+    border-radius: 20px; 
+    cursor: pointer;
+}
+.messege_input{
+    border: 2px solid black; 
+    border-radius: 18px; 
+    padding: 5px 10px 5px 10px;
+    margin: 8px 15px 5px 15px;
+}
+
+.send_button{
+    /* border:none; 
+    background-color: rgb(121, 202, 121); 
+    border-radius:25px; 
+    margin-right:10px; 
+    margin-top:10px; */
+    border: none;
+    background-color: rgb(121, 202, 121);
+    border-radius: 25px;
+    margin-right: 8px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+#send_btn{
+    padding-bottom: 2px;
+    width: 20px;
+    height: 20px;
+}
