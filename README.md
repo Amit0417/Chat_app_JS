@@ -1,8 +1,8 @@
 # Chat_app_JS
 
-![](Chat_app_JS/img/img1.png)
-![](Chat_app_JS/img/img2.png)
-![](Chat_app_JS/img/img3.png)
+![](img/img1.png)
+![](img/img2.png)
+![](img/img3.png)
 
 1. Create a single page chat app using JS and jQuery.
 2. we can send message frome admin1 to admin2 and vice versa.
